@@ -1,2 +1,5 @@
 # drum-kit
-a drum-kit that makes some sound using plain javascript
+
+drum-player , pressing keys enable us to produce music.
+
+concept used : JQuery events 
