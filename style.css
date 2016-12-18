@@ -1,0 +1,40 @@
+html{
+	background: url(https://images3.alphacoders.com/151/thumb-1920-151409.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+ul#buttons li{
+	display: inline;
+}
+
+#buttons{
+	margin: 100px;
+}
+
+.btn{
+	background-color: transparent;
+	margin: 10px;
+}
+
+.primaryKey{
+	font-size: x-large;
+	color: #ffffff;
+}
+
+
+.secondaryKey{
+
+}
+
+#header{
+	width: auto;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+#main{
+	text-align: center;
+	padding: 10px;
+}
+
