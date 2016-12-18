@@ -63,11 +63,148 @@ $(document).keypress(function (e) {
 });
 */
 
+
 $(document).keydown(function  (e) {
 	// body...
 	var character = String.fromCharCode(e.keyCode);
+
 	if(character === 'A') {
-		$("#A").style.backgroundColor = "black";
-	}
-}
-);
+
+		const btn = $("button[data-key = '65']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'S') {
+
+		const btn = $("button[data-key = '83']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'D') {
+
+		const btn = $("button[data-key = '68']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'F') {
+
+		const btn = $("button[data-key = '70']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'G') {
+
+		const btn = $("button[data-key = '71']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'H') {
+
+		const btn = $("button[data-key = '72']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'J') {
+
+		const btn = $("button[data-key = '74']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'K') {
+
+		const btn = $("button[data-key = '75']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+	if(character === 'L') {
+
+		const btn = $("button[data-key = '76']");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+	};
+
+}); 
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- 
+
+if I dont want to use 9 if(){} statement, can I do something like the followig code
+
+but exactly this code is not working .
+
+$(document).keydown(function  (e) {
+	// body...
+	var character = e.keyCode;
+	console.log(character);
+
+		const btn = $("button[data-key = character ]");
+
+		btn.addClass("playing");
+
+		window.addEventListener("transitionend", function  (e) {
+			// body...
+				btn.removeClass("playing");
+		});
+});
+
+*/
+
+
