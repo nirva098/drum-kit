@@ -71,8 +71,10 @@ $(document).keydown(function  (e) {
 	if(character === 'A') {
 
 		const btn = $("button[data-key = '65']");
-
+		const audio = $("audio[data-key = '65']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -83,8 +85,10 @@ $(document).keydown(function  (e) {
 	if(character === 'S') {
 
 		const btn = $("button[data-key = '83']");
-
+		const audio = $("audio[data-key = '83']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -96,7 +100,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '68']");
 
+		const audio = $("audio[data-key = '68']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -108,7 +115,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '70']");
 
+		const audio = $("audio[data-key = '70']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -120,7 +130,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '71']");
 
+		const audio = $("audio[data-key = '71']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -132,7 +145,11 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '72']");
 
+		const audio = $("audio[data-key = '72']");
+		
 		btn.addClass("playing");
+		
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -144,7 +161,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '74']");
 
+		const audio = $("audio[data-key = '74']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -156,7 +176,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '75']");
 
+		const audio = $("audio[data-key = '75']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
@@ -168,7 +191,10 @@ $(document).keydown(function  (e) {
 
 		const btn = $("button[data-key = '76']");
 
+		const audio = $("audio[data-key = '76']");
+		
 		btn.addClass("playing");
+		audio.get(0).play();
 
 		window.addEventListener("transitionend", function  (e) {
 			// body...
