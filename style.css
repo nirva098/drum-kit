@@ -13,19 +13,27 @@ ul#buttons li{
 
 .btn{
 	transition : 0.2s;
+
 	border: 3px solid black;
+	border-radius: 4px;
+	width: 70px;
+	box-shadow: 1px 1px 1px yellow;
 	background-color: transparent;
 	margin: 10px;
 }
 
 .primaryKey{
 	font-size: x-large;
+	text-shadow:2px 2px black;
 	color: #ffffff;
 }
 
 
 .secondaryKey{
-
+	color: red;
+	font-style: bold;
+	font-size: small;
+	text-shadow : 1px 1px black;
 }
 
 #header{
